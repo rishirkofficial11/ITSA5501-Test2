@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: lighttpd-container
-          image: lighttpd:latest
+          image: nginx:latest
           ports:
             - containerPort: 80
           resources:
